@@ -1,0 +1,89 @@
+body {
+  font-family: "Merriweather", serif;
+}
+
+.main {
+  margin-left: 250px;
+  width: 700px;
+}
+
+.main h1 {
+  font-size: 36px;
+  line-height: 150%;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+
+.main p {
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.main img {
+  width: 700px;
+}
+.db a {
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #4d96d1;
+}
+p.small {
+  font-size: 15px;
+  font-weight: 100;
+}
+.backg {
+  background: #eeeeee;
+  border-top: 0.1px solid black;
+}
+.end {
+  margin-top: 40px;
+  font-size: 17px;
+}
+.end > ul {
+  border-left: 0.1px solid black;
+}
+.end > ul > li {
+  margin-top: 10px;
+}
+.end > ul > li > a {
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #076dc0;
+}
+
+.full {
+  display: flex;
+}
+
+.right {
+  width: 300px;
+  margin-left: 80px;
+  margin-top: -25px;
+}
+.right > a {
+  text-decoration: underline;
+  text-decoration-color: purple;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+.right img {
+  width: 300px;
+  margin-top: 15px;
+}
+.right ul li {
+  list-style: none;
+  margin-left: -36px;
+  margin-top: 10px;
+  border-bottom: 0.1px solid rgba(158, 153, 153, 0.288);
+  line-height: 30px;
+}
+.right ul li:last-child {
+  border-bottom: none;
+}
+.right ul > li > a {
+  text-decoration: none;
+  color: black;
+}
