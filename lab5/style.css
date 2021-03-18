@@ -1,0 +1,26 @@
+table,
+tr,
+td,
+th {
+  border: 1px solid grey;
+  /* border-spacing: 0; */
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  caption-side: bottom;
+}
+
+th,
+td {
+  width: 200px;
+  padding: 10px;
+}
+tr:nth-child(2n){
+    background-color: aqua;
+}
+/* tbody tr:nth-child(2n){
+    background-color: aqua;
+} */
+

@@ -1,0 +1,19 @@
+table,
+tr,
+th,
+td {
+  border: 3px solid gray;
+  text-align: center;
+  line-height: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+}
+
+tbody tr:nth-child(2n + 1) {
+  background-color: rgb(238, 234, 234);
+}
