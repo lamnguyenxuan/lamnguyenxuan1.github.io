@@ -1,0 +1,15 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 500px;
+  background-color: green;
+  align-items: flex-end;
+  align-content: flex-start;
+}
+
+.flex-item {
+  width: 50px;
+  background-color: red;
+}
