@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Karla, sans-serif;
+  color: #1d1f2e;
+  font-size: 12px;
+  font-weight: 400;
+}
+.flex {
+  display: flex;
+}
+.header {
+  padding: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+.menu a {
+  padding: 15px;
+}
+.menu a:nth-child(1) {
+  margin-left: 100px;
+}
+.img-top img {
+  height: 25px;
+}
+.img-top {
+  margin-top: 10px;
+  margin-left: 20%;
+}
+.cart img {
+  margin-top: 5px;
+  margin-left: 50px;
+  height: 15px;
+}
+.cart {
+  margin-top: 7px;
+}
+.cart span {
+  margin-left: 5px;
+}
+.container2 {
+  background: #050827;
+}
+.container {
+  background: url("https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a58aaecdfba_Header-Pic.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: contain;
+  background-position: center bottom;
+  text-align: center;
+  width: 1440px;
+  margin: auto;
+}
+.container p {
+  color: white;
+  font-weight: 500;
+}
+.pfirst {
+  padding-top: 150px;
+}
+.psecond {
+  margin-top: 20px;
+  font-size: 40px;
+}
+.pthirst {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.container button {
+  margin-top: 30px;
+  padding: 20px;
+  cursor: pointer;
+}
+.main {
+  width: 650px;
+  text-align: center;
+  margin: auto;
+  margin-top: 120px;
+}
+.title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.nd {
+  width: 530px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.full {
+  width: 120px;
+  margin: auto;
+  border-bottom: 2px solid rgba(162, 95, 75, 0.2);
+  margin-top: 35px;
+}
+.full a {
+  color: chocolate;
+  font-size: 14px;
+}
+.feature {
+  margin-top: 90px;
+  font-weight: bold;
+  color: gray;
+}
+.main-class {
+  width: 940px;
+  margin: auto;
+  margin-top: 100px;
+}
+.main-class img {
+  width: 460px;
+}
+.img-main2 img {
+  margin-left: 20px;
+}
+
+.img-main {
+  position: relative;
+}
+.img-main2 {
+  position: relative;
+}
+.ab-but1 {
+  position: absolute;
+  top: 74%;
+  left: 10px;
+  width: 440px;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  display: none;
+  cursor: pointer;
+}
+.ab-but2 {
+  position: absolute;
+  top: 74%;
+  left: 30px;
+  width: 440px;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  display: none;
+  cursor: pointer;
+}
+
+.img-main:hover .ab-but1 {
+  display: block;
+  transition: 3s;
+}
+
+.img-main2:hover .ab-but2 {
+  display: block;
+  transition: 3s;
+}
+.nd-but1,
+.nd-but2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.nd-but1 p,
+.nd-but2 p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nd-but1 p:nth-child(2) {
+  margin-top: 13px;
+  color: gray;
+  font-size: 14px;
+}
+.nd-but2 p:nth-child(2) {
+  margin-top: 10px;
+  color: gray;
+  font-size: 14px;
+}
+.more-product {
+  width: 940px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
