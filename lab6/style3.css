@@ -186,6 +186,10 @@ form input {
 .main1-image img {
   margin-top: 10px;
 }
+.main1-image img:hover {
+  transition: 0.3s;
+  width: 120%;
+}
 .image-nd {
   flex-basis: 25%;
   padding-left: 5px;
@@ -265,4 +269,7 @@ form input {
   position: absolute;
   left: 46%;
   cursor: pointer;
+}
+.best:hover {
+  width: 200px;
 }
