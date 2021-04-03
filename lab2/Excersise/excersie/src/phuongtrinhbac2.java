@@ -19,6 +19,6 @@ public class phuongtrinhbac2 {
         if(denta<0) System.out.println("Phuong trinh vo nghiem");
         else if (denta == 0) System.out.println("Phuong trinh co nghiem duy nhat: " + (double)(-b/(2*a)));
         else System.out.println("Phuong trinh co 2 nghiem phan biet:\n x1= " + (double)(-b+Math.sqrt(denta))/(2*a) + "\n x2= " + (double)(-b-Math.sqrt(denta))/(2*a));
-
+        scanner.close();
     }
 }
