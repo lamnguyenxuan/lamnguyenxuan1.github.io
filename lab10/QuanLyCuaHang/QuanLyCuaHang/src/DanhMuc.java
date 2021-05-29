@@ -1,0 +1,3 @@
+public enum DanhMuc {
+    DOAN, CONGCUHOCTAP, DUNGCUNAUAN, DODIENTU
+}
